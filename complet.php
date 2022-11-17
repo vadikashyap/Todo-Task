@@ -8,10 +8,9 @@ if (isset($_GET["id"])) {
 	if (mysqli_query($conn , $sql)) {
 		header("Location: home.php?complet-success"); 
 	}
+
 	else{
 		echo "Error";
 	}
-
 }
-
 ?>
